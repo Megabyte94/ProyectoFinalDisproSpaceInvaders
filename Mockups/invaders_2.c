@@ -29,7 +29,7 @@
 
 /* ------------------------ Inclusion of Own Headers ------------------------ */
 
-#include "drawings_asciiart.h"
+#include "drawings_unicode.h"
 #include "conio.h"
 #include "alien.h"
 
@@ -71,7 +71,7 @@ for( int i = 0; i < MAX_ALIENS; i++ )
 	alien[i] = New_Alien();
 
 for( int i = 0; i < MAX_ALIENS; i++ ) {
-	Set_Alien_Aspect( alien[i], &crab );
+	Set_Alien_Aspect( alien[i], &alien1 );
 	Set_Alien_Color( alien[i], RED );
 	Set_Alien_Location( alien[i], 1, i*7 + 1 );
 	Draw_Alien( alien[i] );

@@ -9,8 +9,6 @@
 
 enum { RESET, BLACK = 30, RED, GREEN, YELLOW, BLUE, PURPLE, CYAN, WHITE };
 
-
-
 /*********************** Prototypes of Public Functions ***********************/
 
 /* -------------------------- Services in console --------------------------- */

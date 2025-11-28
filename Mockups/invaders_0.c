@@ -57,17 +57,17 @@ int main()
 clrscr();
 ALIEN_T *alien = New_Alien();
 
-Set_Alien_Aspect( alien, &squid );
+Set_Alien_Aspect( alien, &alien1 );
 Set_Alien_Color( alien, RED );
 Set_Alien_Location( alien, 1, 1 );
 Draw_Alien( alien );
 
-Set_Alien_Aspect( alien, &crab );
+Set_Alien_Aspect( alien, &alien2 );
 Set_Alien_Color( alien, GREEN );
 Set_Alien_Location( alien, 21, 1 );
 Draw_Alien( alien );
 
-Set_Alien_Aspect( alien, &octopus );
+Set_Alien_Aspect( alien, &alien3 );
 Set_Alien_Color( alien, CYAN );
 Set_Alien_Location( alien, 41, 1 );
 Draw_Alien( alien );
